@@ -1,0 +1,19 @@
+{
+  "name": "micro-clarifai-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.1.0-dev",
+    "micro": "^6.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
