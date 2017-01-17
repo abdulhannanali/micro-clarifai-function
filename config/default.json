@@ -1,0 +1,6 @@
+{
+    "clarifai": {
+        "client_id": "YOUR-CLIENT_ID",
+        "client_secret": "YOUR_CLIENT_SECRET"
+    }
+}

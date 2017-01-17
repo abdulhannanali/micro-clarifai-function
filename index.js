@@ -6,20 +6,17 @@
 
 const queryParse = require('./queryParse')
 const Clarifai = require('clarifai')
+const config = require('config')
 
 const { createError, send } = require('micro')
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
 
-if (NODE_ENV === 'development') {
-    require('dotenv').config()
-}
-
-const { CLARIFAI_CLIENT_ID, CLARIFAI_CLIENT_SECRET } = process.env
+const { client_id, client_secret } = config.clarifai
 
 const app = new Clarifai.App(
-    CLARIFAI_CLIENT_ID,
-    CLARIFAI_CLIENT_SECRET
+    client_id,
+    client_secret
 )
 
 
