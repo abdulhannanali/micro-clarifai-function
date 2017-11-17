@@ -13,7 +13,7 @@
   "dependencies": {
     "clarifai": "^2.1.0-dev",
     "config": "^1.24.0",
-    "micro": "^6.2.0"
+    "micro": "^9.0.1"
   },
   "devDependencies": {
     "dotenv": "^4.0.0"
